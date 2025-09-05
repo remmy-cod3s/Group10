@@ -4,15 +4,22 @@
   <meta charset="UTF-8">
   <title>About</title>
   <link rel="stylesheet" href="styleabout.css">
-  <link rel="icon" href="savings.jpeg" type="image/x-icon">
+  <link rel="icon" href="icon.png" type="image/x-icon">
 </head>
 <body>
     <nav class="navbar">
       <div class="navbar-logo">
-        <h1>Cashflow</h1>
+        <h1>
+          <a href="#">
+            <img src="icon.png" alt="logo" class="logo">
+          </a>
+        </h1>
       </div>
       <div>
         <ul>
+          <!--
+  add the links to the other pages
+-->
           <li><a>Transactions</a></li>
           <li><a>Overview</a></li>
           <li><a>🌞</a></li>
@@ -53,37 +60,45 @@
         </div>
         <section id="about-blocks">
             <div class="blocks" id="about1">
-                <h5>&bull; Overview Dashboard: </h5>
+                <h5> Overview Dashboard: </h5>
                 <p>View your total balance, income, and expenses in one place.</p>
             </div>
             <div class="blocks" id="about2">
-                <h5>&bull; Transaction Management: </h5>
+                <h5> Transaction Management: </h5>
                 <p>Add new transaction with descriptions, amounts, and categories (Income or Expense).</p>
             </div>
             <div class="blocks" id="about3">
-                <h5>&bull; Validation: </h5>
+                <h5> Validation: </h5>
                 <p>Every transaction is checked to ensure accuracy and consistency.</p>
             </div>
             <div class="blocks" id="about4">
-                <h5>&bull; Data Storage: </h5>
+                <h5> Data Storage: </h5>
                 <p>Your financial history is saved so you never lose track of your transactions.</p>
             </div>
             
         </section>
         <hr>
-        <div class="container">
-        <div class="about-budget">
-        <div class="about-budget__inner">
-        <h3 class="about-budget__title">
-        <span class="title-word-2">Our Mission.</span>
-        </h3>
-        <div class="about-budget__content">
+        <div  class="flex-container">
+          <div class="mission-content">
+        <h2 style="text-align: center;">
+        Our Mission
+        </h2>
           <p>Managing money shouldn't be complicated. The CashFlow App makes financial tracking easy, clear, and accessible for everyone.</p>
-          <p><small>Take control of your monney, plan better, and achieve your financial goals with confidence.</small></p>
+          <p>Take control of your monney, plan better, and achieve your financial goals with confidence.</p>
         </div>
-        </div>
+        <div>
+          <img src="mission.jpeg" alt="logo">
         </div>
     </div>
+    </div>
+    <div class="button">
+      <h1>$Would you like to begin budgeting?</h1>
+      <button>
+        <!--
+  add the link for the button
+-->
+        Begin Budgeting 
+      </button>
     </div>
         
   
